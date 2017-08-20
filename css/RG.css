@@ -57,8 +57,13 @@ background: white;
 }
 
  .skills {
-background: white;
+background: #726D6D;
 }
+
+.skills img {
+width: 20%;
+}
+
  .education {
    background: white;
 }
@@ -80,4 +85,27 @@ padding: 50px 0;
   background-color: #2ECC71;
   border-bottom: 4px solid #27AE60; 
   margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+.img-eiffel-tower {
+  display: block;
+  margin: auto;
+}
+
+.div-center {
+  margin: auto; 
+  text-align: center;
 }
